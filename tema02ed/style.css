@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(177, 104, 177);
+}
+
+header {
+    padding: 20px;
+    background-color: thistle;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width:  52.08vw;
+    margin: auto;
+}
+
+aside.titu {
+    background-color: rgba(255, 255, 255, 0.734);
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+div.estrofes {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.627);
+}
+
+div.e1 {
+    margin: 10px;
+    padding: 10px;
+    text-indent: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.627);
+}
+
+div.e1 > h2 {
+    text-align: center;
+}
+
+div > ul {
+    list-style-position: inside;
+}
+
+div.e2 {
+    margin: 10px;
+    padding: 10px;
+    text-indent: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.627);
+}
