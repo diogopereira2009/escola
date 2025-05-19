@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1E1E1E;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+}
+
+header > h1 {
+    background-color: rgba(255, 255, 255, 0.805);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+main {
+    background-color: transparent;
+    display: flex;
+    flex-flow: wrap column;
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.43);
+}
+
+.estrofe {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* #121212 preto suave*/
+/* #1E1E1E preto mais suave ainda*/
+/* #BB86FC lilás*/
